@@ -27,7 +27,7 @@ class MP_Controller:
 
         options_hands = mp.tasks.vision.HandLandmarkerOptions(
             base_options=mp.tasks.BaseOptions(
-                model_asset_path="/home/zulal/osama_mediapipe/ME461/lab1/hand_landmarker.task"
+                model_asset_path="/home/zulal/ME462/ME462_Robolaunch/hand_landmarker.task"
             ),  # path to model
             running_mode=mp.tasks.vision.RunningMode.LIVE_STREAM,  # running on a live stream
             num_hands=1,  # track both hands
@@ -52,7 +52,7 @@ class MP_Controller:
         # HandLandmarkerOptions (details here: https://developers.google.com/mediapipe/solutions/vision/hand_landmarker/python#live-stream)
         options_face = mp.tasks.vision.FaceLandmarkerOptions(
             base_options=mp.tasks.BaseOptions(
-                model_asset_path="/home/zulal/osama_mediapipe/ME461/lab1/face_landmarker.task"
+                model_asset_path="/home/zulal/ME462/ME462_Robolaunch/face_landmarker.task"
             ),  # path to model
             running_mode=mp.tasks.vision.RunningMode.LIVE_STREAM,  # running on a live stream
             num_faces=1,
