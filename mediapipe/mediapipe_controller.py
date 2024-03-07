@@ -8,11 +8,12 @@ from mediapipe.tasks.python import vision
 
 class MP_Controller:
     def __init__(self, mode=1):
-        self.hand_result = mp.tasks.vision.HandLandmarkerResult
-        self.hand_landmarker = mp.tasks.vision.HandLandmarker
-        self.createHandLandmarker()
+        if mode == 1:
+            self.hand_result = mp.tasks.vision.HandLandmarkerResult
+            self.hand_landmarker = mp.tasks.vision.HandLandmarker
+            self.createHandLandmarker()
 
-        if mode == 2:
+        elif mode == 2:
             self.face_result = mp.tasks.vision.FaceLandmarkerResult
             self.face_landmarker = mp.tasks.vision.FaceLandmarker
             self.createFaceLandmarker()
@@ -27,7 +28,7 @@ class MP_Controller:
 
         options_hands = mp.tasks.vision.HandLandmarkerOptions(
             base_options=mp.tasks.BaseOptions(
-                model_asset_path="/home/zulal/ME462/ME462_Robolaunch/hand_landmarker.task"
+                model_asset_path="hand_landmarker.task"
             ),  # path to model
             running_mode=mp.tasks.vision.RunningMode.LIVE_STREAM,  # running on a live stream
             num_hands=1,  # track both hands
@@ -52,7 +53,7 @@ class MP_Controller:
         # HandLandmarkerOptions (details here: https://developers.google.com/mediapipe/solutions/vision/hand_landmarker/python#live-stream)
         options_face = mp.tasks.vision.FaceLandmarkerOptions(
             base_options=mp.tasks.BaseOptions(
-                model_asset_path="/home/zulal/ME462/ME462_Robolaunch/face_landmarker.task"
+                model_asset_path="face_landmarker.task"
             ),  # path to model
             running_mode=mp.tasks.vision.RunningMode.LIVE_STREAM,  # running on a live stream
             num_faces=1,
@@ -69,59 +70,31 @@ class MP_Controller:
         # convert np frame to mp image
         mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=frame)
         # detect landmarks
-        self.hand_landmarker.detect_async(
-            image=mp_image, timestamp_ms=int(time.time() * 1000)
-        )
+        if mode == 1:
+            self.hand_landmarker.detect_async(
+                image=mp_image, timestamp_ms=int(time.time() * 1000)
+            )
 
-        if mode == 2:
+        elif mode == 2:
             self.face_landmarker.detect_async(
                 image=mp_image, timestamp_ms=int(time.time() * 1000)
             )
 
     def get_index_tip_coordinates(self):
         if self.hand_result.hand_landmarks != []:
-            # print(
-            #     "HandLandmark.INDEX_FINGER_TIP result:\n {}".format(
-            #         self.hand_result.hand_landmarks[0][8]
-            #     )
-            # )  # (HandLandmark.INDEX_FINGER_TIP=8)
-
             # GET INDEX_FINGER POSITION
             return (
                 self.hand_result.hand_landmarks[0][8].x,
                 self.hand_result.hand_landmarks[0][8].y
-                # self.hand_result.hand_landmarks[0][8].z,
             )
 
-    def get_mouth_coordinates(self):
+    def get_face_coordinates(self):
         if self.face_result.face_landmarks != []:
-            # print(
-            #     "FaceLandmark.NOSE position:\n {}".format(
-            #         self.face_result.face_landmarks[0][1]
-            #     )
-            # print(
-            #     "FaceLandmark.upperMOUTH position:\n {}".format(
-            #         self.face_result.face_landmarks[0][13]
-            #     )
-            # )  # (HandLandmark.INDEX_FINGER_TIP=8)
-            # print(
-            #     "FaceLandmark.lowerMOUTH position:\n {}".format(
-            #         self.face_result.face_landmarks[0][14]
-            #     )
-            # )  # (HandLandmark.INDEX_FINGER_TIP=8)
+            # GET HEAD_UPPER POINT POSITION
             return (
-                self.face_result.face_landmarks[0][1].x,
-                self.face_result.face_landmarks[0][1].y
-                # (
-                #     self.face_result.face_landmarks[0][13].x,
-                #     self.face_result.face_landmarks[0][13].y
-                # ),
-                # (
-                #     self.face_result.face_landmarks[0][14].x,
-                #     self.face_result.face_landmarks[0][14].y
-                # )
-                # self.face_result.face_landmarks[0][13].z,
-            )  # GET MOUTH POSITION
+                self.face_result.face_landmarks[0][10].x,
+                self.face_result.face_landmarks[0][10].y
+            )
 
     def close(self):
         # close landmarker
