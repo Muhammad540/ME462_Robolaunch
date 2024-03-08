@@ -1,0 +1,8 @@
+setup.py
+player_commands/__init__.py
+player_commands.egg-info/PKG-INFO
+player_commands.egg-info/SOURCES.txt
+player_commands.egg-info/dependency_links.txt
+player_commands.egg-info/top_level.txt
+player_commands/msg/__init__.py
+player_commands/msg/_player_command.py

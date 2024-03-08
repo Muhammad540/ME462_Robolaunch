@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/check_image_size/check_image_size.egg-info
+writing ../../build/check_image_size/check_image_size.egg-info/PKG-INFO
+writing dependency_links to ../../build/check_image_size/check_image_size.egg-info/dependency_links.txt
+writing entry points to ../../build/check_image_size/check_image_size.egg-info/entry_points.txt
+writing requirements to ../../build/check_image_size/check_image_size.egg-info/requires.txt
+writing top-level names to ../../build/check_image_size/check_image_size.egg-info/top_level.txt
+writing manifest file '../../build/check_image_size/check_image_size.egg-info/SOURCES.txt'
+reading manifest file '../../build/check_image_size/check_image_size.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/check_image_size/check_image_size.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build
+creating /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib
+creating /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size
+copying check_image_size/__init__.py -> /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size
+copying check_image_size/image_size_comparator.py -> /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size
+running install
+running install_lib
+creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size
+copying /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size/__init__.py -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size
+copying /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size/image_size_comparator.py -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size
+byte-compiling /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size/image_size_comparator.py to image_size_comparator.cpython-310.pyc
+running install_data
+creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index
+creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index/resource_index
+creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index/resource_index/packages
+copying resource/check_image_size -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index/resource_index/packages
+copying package.xml -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/check_image_size
+running install_egg_info
+Copying ../../build/check_image_size/check_image_size.egg-info to /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_size_comparator script to /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/check_image_size
+writing list of installed files to '/home/ahmedmuhammad/pingpong_ws/build/check_image_size/install.log'

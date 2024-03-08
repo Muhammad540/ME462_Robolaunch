@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ahmedmuhammad/pingpong_ws/install/player_commands/include/**",
+        "/home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/ahmedmuhammad/pingpong_ws/src/image_transport_tutorials/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

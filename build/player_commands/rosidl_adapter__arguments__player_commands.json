@@ -1,0 +1,6 @@
+{
+  "package_name": "player_commands",
+  "non_idl_tuples": [
+    "/home/ahmedmuhammad/pingpong_ws/src/player_commands:msg/PlayerCommand.msg"
+  ]
+}

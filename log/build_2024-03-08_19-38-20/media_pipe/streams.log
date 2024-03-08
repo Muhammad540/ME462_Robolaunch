@@ -1,0 +1,27 @@
+[0.686s] Invoking command in '/home/ahmedmuhammad/pingpong_ws/src/media_pipe': LD_LIBRARY_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands/lib:/home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmedmuhammad/pingpong_ws/build/media_pipe/prefix_override:/home/ahmedmuhammad/pingpong_ws/install/media_pipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/media_pipe build --build-base /home/ahmedmuhammad/pingpong_ws/build/media_pipe/build install --record /home/ahmedmuhammad/pingpong_ws/build/media_pipe/install.log --single-version-externally-managed
+[0.850s] running egg_info
+[0.851s] writing ../../build/media_pipe/media_pipe.egg-info/PKG-INFO
+[0.851s] writing dependency_links to ../../build/media_pipe/media_pipe.egg-info/dependency_links.txt
+[0.851s] writing entry points to ../../build/media_pipe/media_pipe.egg-info/entry_points.txt
+[0.852s] writing requirements to ../../build/media_pipe/media_pipe.egg-info/requires.txt
+[0.852s] writing top-level names to ../../build/media_pipe/media_pipe.egg-info/top_level.txt
+[0.853s] reading manifest file '../../build/media_pipe/media_pipe.egg-info/SOURCES.txt'
+[0.853s] adding license file 'LICENSE'
+[0.853s] writing manifest file '../../build/media_pipe/media_pipe.egg-info/SOURCES.txt'
+[0.853s] running build
+[0.853s] running build_py
+[0.853s] copying media_pipe/media_pipe.py -> /home/ahmedmuhammad/pingpong_ws/build/media_pipe/build/lib/media_pipe
+[0.854s] running install
+[0.854s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.854s]   warnings.warn(
+[0.854s] running install_lib
+[0.854s] copying /home/ahmedmuhammad/pingpong_ws/build/media_pipe/build/lib/media_pipe/media_pipe.py -> /home/ahmedmuhammad/pingpong_ws/install/media_pipe/lib/python3.10/site-packages/media_pipe
+[0.855s] byte-compiling /home/ahmedmuhammad/pingpong_ws/install/media_pipe/lib/python3.10/site-packages/media_pipe/media_pipe.py to media_pipe.cpython-310.pyc
+[0.855s] running install_data
+[0.856s] running install_egg_info
+[0.857s] removing '/home/ahmedmuhammad/pingpong_ws/install/media_pipe/lib/python3.10/site-packages/media_pipe-0.0.0-py3.10.egg-info' (and everything under it)
+[0.857s] Copying ../../build/media_pipe/media_pipe.egg-info to /home/ahmedmuhammad/pingpong_ws/install/media_pipe/lib/python3.10/site-packages/media_pipe-0.0.0-py3.10.egg-info
+[0.858s] running install_scripts
+[0.873s] Installing media_pipe script to /home/ahmedmuhammad/pingpong_ws/install/media_pipe/lib/media_pipe
+[0.873s] writing list of installed files to '/home/ahmedmuhammad/pingpong_ws/build/media_pipe/install.log'
+[0.892s] Invoked command in '/home/ahmedmuhammad/pingpong_ws/src/media_pipe' returned '0': LD_LIBRARY_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands/lib:/home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmedmuhammad/pingpong_ws/build/media_pipe/prefix_override:/home/ahmedmuhammad/pingpong_ws/install/media_pipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/media_pipe build --build-base /home/ahmedmuhammad/pingpong_ws/build/media_pipe/build install --record /home/ahmedmuhammad/pingpong_ws/build/media_pipe/install.log --single-version-externally-managed

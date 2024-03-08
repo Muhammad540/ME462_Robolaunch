@@ -1,0 +1,171 @@
+[0.315s] Invoking command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedmuhammad/pingpong_ws/install/media_pipe:/home/ahmedmuhammad/pingpong_ws/install/check_image_size:/opt/ros/humble /usr/bin/cmake --build /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials -- -j16 -l16
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target publisher_from_video[0m
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_generator_c[0m
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target my_publisher[0m
+[0.346s] [35m[1mConsolidate compiler generated dependencies of target my_subscriber[0m
+[0.352s] [  2%] Built target image_transport_tutorials__cpp
+[0.356s] [  9%] Built target image_transport_tutorials__rosidl_generator_c
+[0.360s] [ 12%] Built target ament_cmake_python_copy_image_transport_tutorials
+[0.361s] [ 14%] Built target publisher_from_video
+[0.361s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_introspection_cpp[0m
+[0.361s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_cpp[0m
+[0.361s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_fastrtps_cpp[0m
+[0.364s] [ 19%] Built target my_subscriber
+[0.364s] [ 24%] Built target my_publisher
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_c[0m
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_fastrtps_c[0m
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_introspection_c[0m
+[0.372s] [ 31%] Built target image_transport_tutorials__rosidl_typesupport_cpp
+[0.372s] [ 39%] Built target image_transport_tutorials__rosidl_typesupport_fastrtps_cpp
+[0.372s] [ 46%] Built target image_transport_tutorials__rosidl_typesupport_introspection_cpp
+[0.373s] [ 53%] Built target image_transport_tutorials__rosidl_typesupport_c
+[0.374s] [ 60%] Built target image_transport_tutorials__rosidl_typesupport_introspection_c
+[0.377s] [ 68%] Built target image_transport_tutorials__rosidl_typesupport_fastrtps_c
+[0.379s] [35m[1mConsolidate compiler generated dependencies of target resized_plugins[0m
+[0.388s] [ 68%] Built target image_transport_tutorials
+[0.394s] [ 78%] Built target resized_plugins
+[0.401s] [ 80%] Built target image_transport_tutorials__py
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_generator_py[0m
+[0.418s] [ 85%] Built target image_transport_tutorials__rosidl_generator_py
+[0.424s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_introspection_c__pyext[0m
+[0.424s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target image_transport_tutorials__rosidl_typesupport_c__pyext[0m
+[0.433s] [ 95%] Built target image_transport_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[0.433s] [ 95%] Built target image_transport_tutorials__rosidl_typesupport_introspection_c__pyext
+[0.434s] [100%] Built target image_transport_tutorials__rosidl_typesupport_c__pyext
+[0.542s] running egg_info
+[0.542s] writing image_transport_tutorials.egg-info/PKG-INFO
+[0.543s] writing dependency_links to image_transport_tutorials.egg-info/dependency_links.txt
+[0.543s] writing top-level names to image_transport_tutorials.egg-info/top_level.txt
+[0.544s] reading manifest file 'image_transport_tutorials.egg-info/SOURCES.txt'
+[0.544s] writing manifest file 'image_transport_tutorials.egg-info/SOURCES.txt'
+[0.565s] [100%] Built target ament_cmake_python_build_image_transport_tutorials_egg
+[0.636s] Invoked command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedmuhammad/pingpong_ws/install/media_pipe:/home/ahmedmuhammad/pingpong_ws/install/check_image_size:/opt/ros/humble /usr/bin/cmake --build /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials -- -j16 -l16
+[0.678s] Invoking command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedmuhammad/pingpong_ws/install/media_pipe:/home/ahmedmuhammad/pingpong_ws/install/check_image_size:/opt/ros/humble /usr/bin/cmake --install /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials
+[0.683s] -- Install configuration: ""
+[0.684s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/ament_index/resource_index/rosidl_interfaces/image_transport_tutorials
+[0.684s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials
+[0.684s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg
+[0.684s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail
+[0.684s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__type_support.h
+[0.684s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__struct.h
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__functions.c
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__functions.h
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/rosidl_generator_c__visibility_control.h
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/resized_image.h
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/library_path.sh
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/library_path.dsv
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_generator_c.so
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg
+[0.685s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail
+[0.686s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_fastrtps_c.h
+[0.686s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.686s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_fastrtps_c.so
+[0.686s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials
+[0.686s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg
+[0.686s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail
+[0.686s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__struct.hpp
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__builder.hpp
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__traits.hpp
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/resized_image.hpp
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/dds_fastrtps
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_fastrtps_cpp.hpp
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__type_support.c
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_introspection_c.h
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_introspection_c.so
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_c.so
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg
+[0.687s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__type_support.cpp
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/msg/detail/resized_image__rosidl_typesupport_introspection_cpp.hpp
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_introspection_cpp.so
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_typesupport_cpp.so
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/pythonpath.sh
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/pythonpath.dsv
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials-0.0.0-py3.10.egg-info
+[0.688s] -- Installing: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.688s] -- Installing: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials-0.0.0-py3.10.egg-info/top_level.txt
+[0.688s] -- Installing: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.688s] -- Installing: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials-0.0.0-py3.10.egg-info/PKG-INFO
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/_image_transport_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/__init__.py
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/msg
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/msg/__init__.py
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/msg/_resized_image.py
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/msg/_resized_image_s.c
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/libimage_transport_tutorials__rosidl_generator_py.so
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.688s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/_image_transport_tutorials_s.ep.rosidl_typesupport_c.c
+[0.689s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/_image_transport_tutorials_s.ep.rosidl_typesupport_introspection_c.c
+[0.709s] Listing '/home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials'...
+[0.709s] Listing '/home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/msg'...
+[0.713s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.713s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.713s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/local/lib/python3.10/dist-packages/image_transport_tutorials/image_transport_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libimage_transport_tutorials__rosidl_generator_py.so
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/msg/ResizedImage.idl
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/msg/ResizedImage.msg
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/resized_plugins.xml
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/image_transport_tutorials/my_publisher
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/image_transport_tutorials/my_subscriber
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/libresized_plugins.so
+[0.714s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/lib/image_transport_tutorials/publisher_from_video
+[0.715s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials
+[0.715s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials
+[0.715s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/resized_publisher.hpp
+[0.716s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/include/image_transport_tutorials/image_transport_tutorials/resized_subscriber.hpp
+[0.716s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/ament_index/resource_index/package_run_dependencies/image_transport_tutorials
+[0.716s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/ament_index/resource_index/parent_prefix_path/image_transport_tutorials
+[0.716s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/ament_prefix_path.sh
+[0.716s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/ament_prefix_path.dsv
+[0.716s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/path.sh
+[0.716s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/environment/path.dsv
+[0.717s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.bash
+[0.717s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.sh
+[0.717s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.zsh
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/local_setup.dsv
+[0.718s] -- Installing: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/package.dsv
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/ament_index/resource_index/packages/image_transport_tutorials
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/ament_index/resource_index/image_transport_tutorials__pluginlib__plugin/image_transport_tutorials
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_generator_cExport.cmake
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_generator_cExport-noconfig.cmake
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_typesupport_fastrtps_cExport.cmake
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_generator_cppExport.cmake
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.718s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cExport.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cExport.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cExport-noconfig.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cppExport.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cppExport.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorials__rosidl_typesupport_cppExport-noconfig.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_generator_pyExport.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/export_image_transport_tutorials__rosidl_generator_pyExport-noconfig.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/rosidl_cmake-extras.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/ament_cmake_export_targets-extras.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorialsConfig.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/cmake/image_transport_tutorialsConfig-version.cmake
+[0.719s] -- Up-to-date: /home/ahmedmuhammad/pingpong_ws/install/image_transport_tutorials/share/image_transport_tutorials/package.xml
+[0.952s] Invoked command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedmuhammad/pingpong_ws/install/media_pipe:/home/ahmedmuhammad/pingpong_ws/install/check_image_size:/opt/ros/humble /usr/bin/cmake --install /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials

@@ -1,0 +1,40 @@
+[0.722s] Invoking command in '/home/ahmedmuhammad/pingpong_ws/src/check_image_size': PYTHONPATH=/home/ahmedmuhammad/pingpong_ws/build/check_image_size/prefix_override:/home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/check_image_size build --build-base /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build install --record /home/ahmedmuhammad/pingpong_ws/build/check_image_size/install.log --single-version-externally-managed
+[0.890s] running egg_info
+[0.891s] creating ../../build/check_image_size/check_image_size.egg-info
+[0.891s] writing ../../build/check_image_size/check_image_size.egg-info/PKG-INFO
+[0.891s] writing dependency_links to ../../build/check_image_size/check_image_size.egg-info/dependency_links.txt
+[0.891s] writing entry points to ../../build/check_image_size/check_image_size.egg-info/entry_points.txt
+[0.891s] writing requirements to ../../build/check_image_size/check_image_size.egg-info/requires.txt
+[0.892s] writing top-level names to ../../build/check_image_size/check_image_size.egg-info/top_level.txt
+[0.892s] writing manifest file '../../build/check_image_size/check_image_size.egg-info/SOURCES.txt'
+[0.893s] reading manifest file '../../build/check_image_size/check_image_size.egg-info/SOURCES.txt'
+[0.893s] adding license file 'LICENSE'
+[0.893s] writing manifest file '../../build/check_image_size/check_image_size.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.894s] running build_py
+[0.894s] creating /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build
+[0.894s] creating /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib
+[0.894s] creating /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size
+[0.894s] copying check_image_size/__init__.py -> /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size
+[0.894s] copying check_image_size/image_size_comparator.py -> /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size
+[0.894s] running install
+[0.894s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.895s]   warnings.warn(
+[0.895s] running install_lib
+[0.895s] creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size
+[0.895s] copying /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size/__init__.py -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size
+[0.895s] copying /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build/lib/check_image_size/image_size_comparator.py -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size
+[0.895s] byte-compiling /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size/__init__.py to __init__.cpython-310.pyc
+[0.896s] byte-compiling /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size/image_size_comparator.py to image_size_comparator.cpython-310.pyc
+[0.896s] running install_data
+[0.897s] creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index
+[0.897s] creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index/resource_index
+[0.897s] creating /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index/resource_index/packages
+[0.897s] copying resource/check_image_size -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/ament_index/resource_index/packages
+[0.897s] copying package.xml -> /home/ahmedmuhammad/pingpong_ws/install/check_image_size/share/check_image_size
+[0.897s] running install_egg_info
+[0.898s] Copying ../../build/check_image_size/check_image_size.egg-info to /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages/check_image_size-0.0.0-py3.10.egg-info
+[0.899s] running install_scripts
+[0.915s] Installing image_size_comparator script to /home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/check_image_size
+[0.916s] writing list of installed files to '/home/ahmedmuhammad/pingpong_ws/build/check_image_size/install.log'
+[0.945s] Invoked command in '/home/ahmedmuhammad/pingpong_ws/src/check_image_size' returned '0': PYTHONPATH=/home/ahmedmuhammad/pingpong_ws/build/check_image_size/prefix_override:/home/ahmedmuhammad/pingpong_ws/install/check_image_size/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/check_image_size build --build-base /home/ahmedmuhammad/pingpong_ws/build/check_image_size/build install --record /home/ahmedmuhammad/pingpong_ws/build/check_image_size/install.log --single-version-externally-managed
