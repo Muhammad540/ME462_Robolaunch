@@ -1,4 +1,0 @@
-Invoking command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials -- -j16 -l16
-Invoked command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials -- -j16 -l16
-Invoking command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials
-Invoked command in '/home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedmuhammad/pingpong_ws/build/image_transport_tutorials

@@ -1,3 +1,0 @@
-[console_scripts]
-media_pipe = media_pipe.media_pipe:main
-

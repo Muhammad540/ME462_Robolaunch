@@ -1,3 +1,0 @@
-[console_scripts]
-communication_w_pico = communication_w_pico.communication_w_pico:main
-
