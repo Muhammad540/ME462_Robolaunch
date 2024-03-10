@@ -1,6 +1,0 @@
-{
-  "package_name": "led_interfaces",
-  "non_idl_tuples": [
-    "/home/ahmedmuhammad/led_ws/src/led_interfaces:srv/LedControl.srv"
-  ]
-}

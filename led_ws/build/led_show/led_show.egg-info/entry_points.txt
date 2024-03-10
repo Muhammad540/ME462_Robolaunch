@@ -1,3 +1,0 @@
-[console_scripts]
-service = led_show.led_control:main
-
