@@ -22,7 +22,7 @@ class CommunicationWPico(Node):
         self.serial_comm.send(serialized_msg)
 
     def __del__(self):
-        if self.serial_comm:
+        if hasattr(self, 'serial_comm') and self.serial_comm is not None:
             self.serial_comm.close()
 
 def main(args=None):
