@@ -1,0 +1,43 @@
+[0.966s] Invoking command in '/home/ahmedmuhammad/pingpong_ws/src/communication_w_pico': AMENT_PREFIX_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands LD_LIBRARY_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/prefix_override:/home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages:/home/ahmedmuhammad/pingpong_ws/install/player_commands/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication_w_pico build --build-base /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build install --record /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/install.log --single-version-externally-managed
+[1.152s] running egg_info
+[1.153s] creating ../../build/communication_w_pico/communication_w_pico.egg-info
+[1.153s] writing ../../build/communication_w_pico/communication_w_pico.egg-info/PKG-INFO
+[1.153s] writing dependency_links to ../../build/communication_w_pico/communication_w_pico.egg-info/dependency_links.txt
+[1.154s] writing entry points to ../../build/communication_w_pico/communication_w_pico.egg-info/entry_points.txt
+[1.154s] writing requirements to ../../build/communication_w_pico/communication_w_pico.egg-info/requires.txt
+[1.154s] writing top-level names to ../../build/communication_w_pico/communication_w_pico.egg-info/top_level.txt
+[1.154s] writing manifest file '../../build/communication_w_pico/communication_w_pico.egg-info/SOURCES.txt'
+[1.155s] reading manifest file '../../build/communication_w_pico/communication_w_pico.egg-info/SOURCES.txt'
+[1.155s] adding license file 'LICENSE'
+[1.156s] writing manifest file '../../build/communication_w_pico/communication_w_pico.egg-info/SOURCES.txt'
+[1.156s] running build
+[1.156s] running build_py
+[1.156s] creating /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build
+[1.156s] creating /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib
+[1.156s] creating /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+[1.156s] copying communication_w_pico/__init__.py -> /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+[1.157s] copying communication_w_pico/communicate.py -> /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+[1.157s] copying communication_w_pico/communication_w_pico.py -> /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+[1.157s] running install
+[1.157s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.157s]   warnings.warn(
+[1.157s] running install_lib
+[1.158s] creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+[1.158s] copying /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico/__init__.py -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+[1.158s] copying /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico/communicate.py -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+[1.158s] copying /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico/communication_w_pico.py -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+[1.158s] byte-compiling /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico/__init__.py to __init__.cpython-310.pyc
+[1.159s] byte-compiling /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico/communicate.py to communicate.cpython-310.pyc
+[1.159s] byte-compiling /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico/communication_w_pico.py to communication_w_pico.cpython-310.pyc
+[1.159s] running install_data
+[1.160s] creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index
+[1.160s] creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index/resource_index
+[1.160s] creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index/resource_index/packages
+[1.160s] copying resource/communication_w_pico -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index/resource_index/packages
+[1.160s] copying package.xml -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/communication_w_pico
+[1.160s] running install_egg_info
+[1.161s] Copying ../../build/communication_w_pico/communication_w_pico.egg-info to /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico-0.0.0-py3.10.egg-info
+[1.162s] running install_scripts
+[1.179s] Installing communication_w_pico script to /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/communication_w_pico
+[1.179s] writing list of installed files to '/home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/install.log'
+[1.209s] Invoked command in '/home/ahmedmuhammad/pingpong_ws/src/communication_w_pico' returned '0': AMENT_PREFIX_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands LD_LIBRARY_PATH=/home/ahmedmuhammad/pingpong_ws/install/player_commands/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/prefix_override:/home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages:/home/ahmedmuhammad/pingpong_ws/install/player_commands/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication_w_pico build --build-base /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build install --record /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/install.log --single-version-externally-managed

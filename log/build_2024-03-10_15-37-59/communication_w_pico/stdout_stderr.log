@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/communication_w_pico/communication_w_pico.egg-info
+writing ../../build/communication_w_pico/communication_w_pico.egg-info/PKG-INFO
+writing dependency_links to ../../build/communication_w_pico/communication_w_pico.egg-info/dependency_links.txt
+writing entry points to ../../build/communication_w_pico/communication_w_pico.egg-info/entry_points.txt
+writing requirements to ../../build/communication_w_pico/communication_w_pico.egg-info/requires.txt
+writing top-level names to ../../build/communication_w_pico/communication_w_pico.egg-info/top_level.txt
+writing manifest file '../../build/communication_w_pico/communication_w_pico.egg-info/SOURCES.txt'
+reading manifest file '../../build/communication_w_pico/communication_w_pico.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/communication_w_pico/communication_w_pico.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build
+creating /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib
+creating /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+copying communication_w_pico/__init__.py -> /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+copying communication_w_pico/communicate.py -> /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+copying communication_w_pico/communication_w_pico.py -> /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+copying /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico/__init__.py -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+copying /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico/communicate.py -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+copying /home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/build/lib/communication_w_pico/communication_w_pico.py -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico
+byte-compiling /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico/communicate.py to communicate.cpython-310.pyc
+byte-compiling /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico/communication_w_pico.py to communication_w_pico.cpython-310.pyc
+running install_data
+creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index
+creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index/resource_index
+creating /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index/resource_index/packages
+copying resource/communication_w_pico -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/ament_index/resource_index/packages
+copying package.xml -> /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/share/communication_w_pico
+running install_egg_info
+Copying ../../build/communication_w_pico/communication_w_pico.egg-info to /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/python3.10/site-packages/communication_w_pico-0.0.0-py3.10.egg-info
+running install_scripts
+Installing communication_w_pico script to /home/ahmedmuhammad/pingpong_ws/install/communication_w_pico/lib/communication_w_pico
+writing list of installed files to '/home/ahmedmuhammad/pingpong_ws/build/communication_w_pico/install.log'
